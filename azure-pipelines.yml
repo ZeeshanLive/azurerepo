@@ -4,8 +4,9 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
-
+  branches:
+    include:
+      - "*"
 pool: nnn
 
 steps:
